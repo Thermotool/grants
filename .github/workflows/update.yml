@@ -1,0 +1,27 @@
+name: Update grants
+on:
+  schedule:
+    - cron: "30 4 * * *"   # varje dag ca 06:30 svensk tid
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Fetch calls
+        env:
+          GDP_API_KEY: ${{ secrets.GDP_API_KEY }}
+          GDP_ENDPOINTS: ${{ secrets.GDP_ENDPOINTS }}
+        run: node scripts/fetch.mjs
+      - name: Commit changes
+        run: |
+          git config user.name "grants-bot"
+          git config user.email "grants-bot@users.noreply.github.com"
+          git add data/calls.json
+          git diff --staged --quiet || git commit -m "Update calls"
+          git push
