@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Utlysningar</title>
+<meta name="theme-color" content="#0f1f2e">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Utlysningar">
+<style>
+:root{
+  --bg:#0f1f2e;--card:#17304a;--card2:#1d3b59;--line:#2a4a6b;--text:#eaf1f7;--muted:#9bb2c6;
+  --accent:#ffb02e;--accent-ink:#2a1a00;--ok:#5fd0a0;--warn:#ff7a59;
+}
+@media (prefers-color-scheme: light){
+  :root{--bg:#eef3f7;--card:#fff;--card2:#f4f8fb;--line:#d5e0ea;--text:#12283b;--muted:#587187;--accent:#e09100;--accent-ink:#fff;--ok:#1f9d6e;--warn:#d4492a}
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--text);font:16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+body{padding:max(12px,env(safe-area-inset-top)) 16px max(24px,env(safe-area-inset-bottom))}
+.wrap{max-width:720px;margin:0 auto}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:4px 0 12px}
+h1{font-size:1.5rem;margin:0}
+.upd{font-size:.78rem;color:var(--muted);text-align:right}
+.search{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:1rem}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:10px 0 4px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:var(--card);color:var(--text);padding:7px 12px;border-radius:999px;font-size:.88rem;cursor:pointer}
+.chip.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:600}
+.row{display:flex;gap:8px;align-items:center;justify-content:space-between;margin:4px 0 10px;color:var(--muted);font-size:.85rem}
+.warn{background:rgba(255,122,89,.14);border:1px solid var(--warn);color:var(--text);padding:8px 12px;border-radius:10px;font-size:.82rem;margin:8px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:0 0 10px}
+.card.new{border-left:4px solid var(--accent)}
+.top{display:flex;gap:10px;align-items:flex-start}
+.title{font-weight:650;font-size:1.02rem;flex:1;overflow-wrap:anywhere}
+.star{background:none;border:none;font-size:1.5rem;line-height:1;cursor:pointer;color:var(--muted);padding:0 2px}
+.star.on{color:var(--accent)}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0;align-items:center}
+.tag{font-size:.74rem;padding:2px 8px;border-radius:999px;background:var(--card2);border:1px solid var(--line);color:var(--muted)}
+.tag.src{color:var(--text);font-weight:600}
+.tag.new{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:700}
+.dl{font-size:.82rem;font-weight:600}
+.dl.soon{color:var(--warn)} .dl.mid{color:var(--accent)} .dl.far{color:var(--ok)} .dl.none{color:var(--muted);font-weight:500}
+.sum{margin:8px 0 0;color:var(--muted);font-size:.9rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card.open .sum{-webkit-line-clamp:unset;display:block}
+.actions{display:flex;gap:10px;margin-top:10px}
+.btn{display:inline-block;padding:8px 14px;border-radius:10px;border:1px solid var(--line);background:var(--card2);color:var(--text);text-decoration:none;font-size:.88rem;cursor:pointer}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:650}
+.empty{text-align:center;color:var(--muted);padding:40px 10px}
+.src-status{font-size:.75rem;color:var(--muted);margin-top:18px;line-height:1.7}
+.src-status b{color:var(--text)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Utlysningar</h1>
+    <div class="upd" id="upd">Laddar…</div>
+  </header>
+  <input class="search" id="q" type="search" placeholder="Sök i titel och beskrivning" autocomplete="off">
+  <div class="chips" id="srcChips"></div>
+  <div class="chips" id="topicChips"></div>
+  <div class="row"><span id="count"></span>
+    <span><button class="chip" id="savedOnly">★ Sparade</button> <button class="chip" id="sortBtn">Sortera: deadline</button></span>
+  </div>
+  <div id="warn"></div>
+  <div id="list"></div>
+  <div class="src-status" id="status"></div>
+</div>
+<script>
+(function(){
+"use strict";
+var DATA=null, state={src:null,topic:null,q:"",saved:false,sort:"deadline"};
+var store={
+  get:function(k,d){try{var v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},
+  set:function(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+};
+var saved=store.get("grants.saved",{});
+var $=function(id){return document.getElementById(id)};
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+
+function today(){var d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
+function daysLeft(dl){if(!dl)return null;var a=new Date(today()+"T00:00:00"),b=new Date(dl+"T00:00:00");return Math.round((b-a)/864e5)}
+function fmt(d){if(!d)return"";var p=d.split("-");var m=["jan","feb","mar","apr","maj","jun","jul","aug","sep","okt","nov","dec"];return +p[2]+" "+m[+p[1]-1]+" "+p[0]}
+function isNew(c){if(!c.firstSeen)return false;return (new Date(today())-new Date(c.firstSeen))/864e5<=7}
+
+function load(){
+  fetch("data/calls.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){
+    DATA=j;try{localStorage.setItem("grants.cache",JSON.stringify(j))}catch(e){}init()
+  }).catch(function(){
+    var c=store.get("grants.cache",null);
+    if(c){DATA=c;init("offline")}else{$("upd").textContent="Kunde inte ladda data"}
+  });
+}
+function init(mode){
+  var u=DATA.updatedAt?new Date(DATA.updatedAt):null;
+  $("upd").textContent=u?"Uppdaterad "+u.toLocaleDateString("sv-SE",{day:"numeric",month:"short"})+" "+u.toLocaleTimeString("sv-SE",{hour:"2-digit",minute:"2-digit"})+(mode?" (offline)":""):"Inte hämtad ännu";
+  buildChips();render();buildStatus();
+}
+function uniq(a){return a.filter(function(v,i){return a.indexOf(v)===i})}
+function chipRow(host,items,key,allLabel){
+  host.textContent="";
+  [null].concat(items).forEach(function(v){
+    var b=el("button","chip"+(state[key]===v?" on":""),v||allLabel);
+    b.onclick=function(){state[key]=v;buildChips();render()};
+    host.appendChild(b);
+  });
+}
+function buildChips(){
+  var calls=DATA.calls||[];
+  chipRow($("srcChips"),uniq(calls.map(function(c){return c.source})).sort(),"src","Alla källor");
+  chipRow($("topicChips"),uniq([].concat.apply([],calls.map(function(c){return c.tags||[]}))).sort(),"topic","Alla ämnen");
+}
+function visible(){
+  var q=state.q.toLowerCase();
+  var list=(DATA.calls||[]).filter(function(c){
+    if(c.deadline&&c.deadline<today()&&!c.rolling)return false;
+    if(state.src&&c.source!==state.src)return false;
+    if(state.topic&&(c.tags||[]).indexOf(state.topic)<0)return false;
+    if(state.saved&&!saved[c.id])return false;
+    if(q&&((c.title||"")+" "+(c.summary||"")).toLowerCase().indexOf(q)<0)return false;
+    return true;
+  });
+  list.sort(function(a,b){
+    if(state.sort==="new")return (b.firstSeen||"").localeCompare(a.firstSeen||"")||(a.deadline||"9999").localeCompare(b.deadline||"9999");
+    return (a.deadline||"9999").localeCompare(b.deadline||"9999");
+  });
+  return list;
+}
+function render(){
+  var list=visible(),host=$("list");host.textContent="";
+  $("count").textContent=list.length+" utlysningar";
+  $("savedOnly").className="chip"+(state.saved?" on":"");
+  $("sortBtn").textContent="Sortera: "+(state.sort==="deadline"?"deadline":"nyast");
+  if(!list.length){host.appendChild(el("div","empty",DATA.updatedAt?"Inga utlysningar matchar.":"Ingen data än – kör arbetsflödet “Update grants” på GitHub en gång."));return}
+  list.forEach(function(c){
+    var card=el("div","card"+(isNew(c)?" new":""));
+    var top=el("div","top");
+    top.appendChild(el("div","title",c.title));
+    var s=el("button","star"+(saved[c.id]?" on":""),saved[c.id]?"★":"☆");
+    s.setAttribute("aria-label","Spara");
+    s.onclick=function(e){e.stopPropagation();if(saved[c.id])delete saved[c.id];else saved[c.id]=1;store.set("grants.saved",saved);render()};
+    top.appendChild(s);card.appendChild(top);
+    var meta=el("div","meta");
+    meta.appendChild(el("span","tag src",c.source));
+    if(isNew(c))meta.appendChild(el("span","tag new","NY"));
+    var n=daysLeft(c.deadline),dl;
+    if(c.rolling&&!c.deadline)dl=el("span","dl none","Löpande");
+    else if(n===null)dl=el("span","dl none","Ingen deadline angiven");
+    else{
+      var cls=n<=7?"soon":n<=30?"mid":"far";
+      dl=el("span","dl "+cls,(n===0?"Idag":n===1?"Imorgon":n+" dagar kvar")+" · "+fmt(c.deadline));
+    }
+    meta.appendChild(dl);
+    if(c.status==="forthcoming"||(c.opens&&c.opens>today()))meta.appendChild(el("span","tag","Öppnar "+fmt(c.opens)));
+    if(c.budget)meta.appendChild(el("span","tag",c.budget));
+    card.appendChild(meta);
+    if(c.summary)card.appendChild(el("div","sum",c.summary));
+    var tg=el("div","meta");(c.tags||[]).forEach(function(t){tg.appendChild(el("span","tag",t))});card.appendChild(tg);
+    var ac=el("div","actions");
+    var a=el("a","btn primary","Öppna");a.href=c.url;a.target="_blank";a.rel="noopener";ac.appendChild(a);
+    card.appendChild(ac);
+    card.onclick=function(e){if(e.target.closest("a,button"))return;card.classList.toggle("open")};
+    host.appendChild(card);
+  });
+}
+function buildStatus(){
+  var st=DATA.sources||{},names=Object.keys(st),bad=names.filter(function(k){return !st[k].ok});
+  var w=$("warn");w.textContent="";
+  if(bad.length){var d=el("div","warn","Kunde inte uppdatera: "+bad.join(", ")+". Visar senast kända data för dessa.");w.appendChild(d)}
+  var h=$("status");h.textContent="";
+  if(names.length){h.appendChild(document.createTextNode("Källor: "));names.forEach(function(k,i){
+    var b=document.createElement("b");b.textContent=k;h.appendChild(b);
+    h.appendChild(document.createTextNode(" ("+st[k].count+(st[k].ok?"":", fel")+")"+(i<names.length-1?" · ":"")));
+  })}
+}
+$("q").addEventListener("input",function(e){state.q=e.target.value;render()});
+$("savedOnly").onclick=function(){state.saved=!state.saved;render()};
+$("sortBtn").onclick=function(){state.sort=state.sort==="deadline"?"new":"deadline";render()};
+if("serviceWorker" in navigator)navigator.serviceWorker.register("service-worker.js").catch(function(){});
+load();
+})();
+</script>
+</body>
+</html>
