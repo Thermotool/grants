@@ -1,20 +1,22 @@
 {
- "updatedAt": "2026-10-30T11:00:01.930Z",
+ "updatedAt": "2026-10-31T10:32:48.956Z",
  "sources": {
   "Energimyndigheten": {
    "ok": true,
    "count": 5,
-   "fetchedAt": "2026-10-30T10:57:46.213Z"
+   "fetchedAt": "2026-10-31T10:30:05.389Z"
   },
   "Vinnova": {
    "ok": true,
    "count": 8,
-   "fetchedAt": "2026-10-30T10:57:47.334Z"
+   "fetchedAt": "2026-10-31T10:30:06.195Z"
   },
   "EU": {
-   "ok": true,
-   "count": 173,
-   "fetchedAt": "2026-10-30T10:59:43.980Z"
+   "ok": false,
+   "count": 169,
+   "error": "fetch failed",
+   "fetchedAt": "2026-10-31T10:32:46.453Z",
+   "lastGood": "2026-10-30T10:59:43.980Z"
   }
  },
  "calls": [
