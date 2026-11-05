@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-11-04T12:25:27.682Z",
+ "updatedAt": "2026-11-05T12:39:39.115Z",
  "sources": {
   "Energimyndigheten": {
    "ok": true,
    "count": 5,
-   "fetchedAt": "2026-11-04T12:22:59.345Z"
+   "fetchedAt": "2026-11-05T12:37:18.192Z"
   },
   "Vinnova": {
    "ok": true,
    "count": 8,
-   "fetchedAt": "2026-11-04T12:23:00.551Z"
+   "fetchedAt": "2026-11-05T12:37:18.776Z"
   },
   "EU": {
    "ok": true,
-   "count": 172,
-   "fetchedAt": "2026-11-04T12:25:06.249Z"
+   "count": 174,
+   "fetchedAt": "2026-11-05T12:39:26.556Z"
   }
  },
  "calls": [
@@ -607,6 +607,22 @@
     "Energi"
    ],
    "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "EU:DIGITAL-2022-SKILLS-03-SPECIALISED-EDU",
+   "source": "EU",
+   "title": "Specialised education programmes or modules in key capacity areas",
+   "summary": "The Skills4Deca scholarship supports completion of three e-courses (3 ECTS) on building energy simulation, insulated envelopes and residential renovation, plus full participation in a three-day hackathon. Up to 40 recipients may receive EUR 2,000 gross each: EUR 1,000 after completing at least 25% of the e-course workload and EUR 1,000 after completing all required activities. Payments are subject to verified results and the scholarship agreement.",
+   "opens": "2026-11-09",
+   "deadline": "2027-01-10",
+   "rolling": false,
+   "status": "forthcoming",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-2022-SKILLS-03-SPECIALISED-EDU",
+   "tags": [
+    "Energi"
+   ],
+   "firstSeen": "2026-11-05"
   },
   {
    "id": "EU:IMREG-2026-INFOME",
@@ -1274,6 +1290,24 @@
     "Utsläpp"
    ],
    "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "EU:HORIZON-EURATOM-2027-01-01",
+   "source": "EU",
+   "title": "Key enabling technologies for fusion power plants (European Partnership on Fusion Energy)",
+   "summary": "Expected Outcome: The action is expected to mature and demonstrate (TRL 6-8) innovative technologies in one of the key areas set out under the scope of the topic: developing and advancing the technology readiness of innovative individual components and/or integrated systems that perform the key functions of fusion power plants (FPPs), in line with the key area targeted; testing the innovative components and/or systems developed in close-to-real-life conditions, demonstrating the ability to deli…",
+   "opens": "2026-09-15",
+   "deadline": "2027-03-04",
+   "rolling": false,
+   "status": "open",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EURATOM-2027-01-01",
+   "tags": [
+    "Energi",
+    "Hög temperatur",
+    "Plasma"
+   ],
+   "firstSeen": "2026-11-05"
   },
   {
    "id": "EU:HORIZON-WIDERA-2027-05-ERA-05",
