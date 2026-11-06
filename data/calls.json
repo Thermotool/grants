@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-11-05T12:39:39.115Z",
+ "updatedAt": "2026-11-06T12:22:21.131Z",
  "sources": {
   "Energimyndigheten": {
    "ok": true,
    "count": 5,
-   "fetchedAt": "2026-11-05T12:37:18.192Z"
+   "fetchedAt": "2026-11-06T12:19:46.222Z"
   },
   "Vinnova": {
    "ok": true,
    "count": 8,
-   "fetchedAt": "2026-11-05T12:37:18.776Z"
+   "fetchedAt": "2026-11-06T12:19:46.902Z"
   },
   "EU": {
    "ok": true,
-   "count": 174,
-   "fetchedAt": "2026-11-05T12:39:26.556Z"
+   "count": 170,
+   "fetchedAt": "2026-11-06T12:22:05.451Z"
   }
  },
  "calls": [
@@ -77,70 +77,6 @@
    "status": "open",
    "budget": null,
    "url": "https://ecscollaborationtool.eu/",
-   "tags": [
-    "Energi"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
-   "id": "EU:HORIZON-CL3-2026-01-DRS-03",
-   "source": "EU",
-   "title": "Development of innovative tools, processes, equipment and technologies through responses to disasters and emergencies for search and rescue in hazardous conditions",
-   "summary": "Expected Outcome: Project results are expected to contribute to some or all of the following expected outcomes: Creation of cutting-edge tools, processes, equipment and technologies to enhance disaster and emergency response capabilities for various practitioners as well as for assets, such as vehicles, aircraft, and heavy equipment; Taking into consideration existing technologies, development of autonomous drones, robotics, and other technologies specifically designed for emergency medical res…",
-   "opens": "2026-05-06",
-   "deadline": "2026-11-05",
-   "rolling": false,
-   "status": "open",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2026-01-DRS-03",
-   "tags": [
-    "Hög temperatur"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
-   "id": "EU:HORIZON-CL3-2026-01-BM-01",
-   "source": "EU",
-   "title": "Advanced border surveillance and situational awareness",
-   "summary": "Expected Outcome: Project results are expected to contribute to some or all of the following expected outcomes: Improved detection, localization, characterization and, when applicable, neutralisation, of unmanned vehicles alone or in swarms, involved in trafficking or smuggling activities across external borders, while complying with legal and ethical guidelines; Improved border situational awareness, especially in the context of large-scale movements of people across borders, including from po…",
-   "opens": "2026-05-06",
-   "deadline": "2026-11-05",
-   "rolling": false,
-   "status": "open",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2026-01-BM-01",
-   "tags": [
-    "Energi"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
-   "id": "EU:HORIZON-CL3-2026-01-DRS-02",
-   "source": "EU",
-   "title": "Multi-hazard approach and cumulative / cascading impacts",
-   "summary": "Expected Outcome: Project results are expected to contribute to some or all of the following expected outcomes: Integrated single-hazard systems into multi-hazard next generation predictive models to assess cascading effects (e.g., heatwave, floods, droughts, landslides, heavy rain) and interactions across meteorological, geophysical, and technological hazards; Enhanced hazard forecasting and response through research on model integration and platform interoperability; Development of holistic r…",
-   "opens": "2026-05-06",
-   "deadline": "2026-11-05",
-   "rolling": false,
-   "status": "open",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2026-01-DRS-02",
-   "tags": [
-    "Energi"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
-   "id": "EU:HORIZON-CL3-2026-01-INFRA-02",
-   "source": "EU",
-   "title": "Security challenges of the green transition in urban und peri urban areas",
-   "summary": "Expected Outcome: Project results are expected to contribute to some or all of the following outcomes: Identification and analysis of potential new security risks related to innovative technologies being deployed in the urban and peri-urban environments; Innovative and modern tools to identify and measure changes in urban and peri-urban areas caused by the green transition, insofar as they concern security and possible resilience approaches; Verification of measures countering potential safety…",
-   "opens": "2026-05-06",
-   "deadline": "2026-11-05",
-   "rolling": false,
-   "status": "open",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2026-01-INFRA-02",
    "tags": [
     "Energi"
    ],
@@ -228,16 +164,16 @@
    "firstSeen": "2026-10-27"
   },
   {
-   "id": "EU:HORIZON-JU-EUROHPC-2026-NQKD-12-01",
+   "id": "EU:HORIZON-JU-EUROHPC-2026-NAPT-11-01",
    "source": "EU",
-   "title": "Next-Generation QKD Systems",
-   "summary": "Expected Outcome: This action will strengthen Europe's strategic autonomy in quantum-secure communications by advancing core QKD technologies and integration capabilities. Expected results include: Development and demonstration of next-generation QKD systems, with a focus on cost-effectiveness and integration, with specific measurable improvements in one of the following parameters or features: (i) key rate (&gt;1 Mbps over metropolitan distances), (ii) operational coverage of a network at the…",
+   "title": "Neutral-Atom Platform Technologies",
+   "summary": "Expected Outcome: This action aims to establish European leadership in neutral-atom quantum simulation and digital quantum computing by delivering: Fully programmable industry-ready quantum simulators based on 10.000 neutral atoms in a scalable architecture, accessible via cloud platforms, and with the possibility of integrating them into high-performance computing environments. Fully programmable platform for neutral-atom quantum computing capable of both analogue quantum operations and gate-b…",
    "opens": "2026-08-13",
    "deadline": "2026-11-17",
    "rolling": false,
    "status": "open",
    "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-NQKD-12-01",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-NAPT-11-01",
    "tags": [
     "Energi"
    ],
@@ -260,16 +196,16 @@
    "firstSeen": "2026-10-27"
   },
   {
-   "id": "EU:HORIZON-JU-EUROHPC-2026-NAPT-11-01",
+   "id": "EU:HORIZON-JU-EUROHPC-2026-NQKD-12-01",
    "source": "EU",
-   "title": "Neutral-Atom Platform Technologies",
-   "summary": "Expected Outcome: This action aims to establish European leadership in neutral-atom quantum simulation and digital quantum computing by delivering: Fully programmable industry-ready quantum simulators based on 10.000 neutral atoms in a scalable architecture, accessible via cloud platforms, and with the possibility of integrating them into high-performance computing environments. Fully programmable platform for neutral-atom quantum computing capable of both analogue quantum operations and gate-b…",
+   "title": "Next-Generation QKD Systems",
+   "summary": "Expected Outcome: This action will strengthen Europe's strategic autonomy in quantum-secure communications by advancing core QKD technologies and integration capabilities. Expected results include: Development and demonstration of next-generation QKD systems, with a focus on cost-effectiveness and integration, with specific measurable improvements in one of the following parameters or features: (i) key rate (&gt;1 Mbps over metropolitan distances), (ii) operational coverage of a network at the…",
    "opens": "2026-08-13",
    "deadline": "2026-11-17",
    "rolling": false,
    "status": "open",
    "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-NAPT-11-01",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-NQKD-12-01",
    "tags": [
     "Energi"
    ],
@@ -340,22 +276,6 @@
    "firstSeen": "2026-10-27"
   },
   {
-   "id": "EU:HORIZON-CL5-2026-11-D3-23",
-   "source": "EU",
-   "title": "Data sharing to support the training and development of AI foundation models in the energy sector",
-   "summary": "Expected Outcome: Projects are expected to contribute to all the following expected outcomes: Effective and innovative methods for gathering, sharing and using large data sets in energy applications for the purpose of training AI models while ensuring privacy and security. Advanced and - wherever possible - open-source AI foundation models to support the digitalisation of the energy system, through improved grid observability, forecasting of supply and demand, advanced storage and renewables in…",
-   "opens": "2026-08-04",
-   "deadline": "2026-12-01",
-   "rolling": false,
-   "status": "open",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-23",
-   "tags": [
-    "Energi"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
    "id": "EU:HORIZON-CL5-2026-11-D3-14",
    "source": "EU",
    "title": "Improved system design for innovative PV applications (EUPI-PV Partnership)",
@@ -387,6 +307,22 @@
     "Bränslen",
     "Biomassa & sameldning",
     "Utsläpp"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "EU:HORIZON-CL5-2026-11-D3-23",
+   "source": "EU",
+   "title": "Data sharing to support the training and development of AI foundation models in the energy sector",
+   "summary": "Expected Outcome: Projects are expected to contribute to all the following expected outcomes: Effective and innovative methods for gathering, sharing and using large data sets in energy applications for the purpose of training AI models while ensuring privacy and security. Advanced and - wherever possible - open-source AI foundation models to support the digitalisation of the energy system, through improved grid observability, forecasting of supply and demand, advanced storage and renewables in…",
+   "opens": "2026-08-04",
+   "deadline": "2026-12-01",
+   "rolling": false,
+   "status": "open",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2026-11-D3-23",
+   "tags": [
+    "Energi"
    ],
    "firstSeen": "2026-10-27"
   },
@@ -675,22 +611,6 @@
    "firstSeen": "2026-10-27"
   },
   {
-   "id": "EU:DIGITAL-ECCC-2027-DEPLOY-CYBER-11-COORDPREP",
-   "source": "EU",
-   "title": "Coordinated preparedness testing and other preparedness actions",
-   "summary": "Expected Outcome: The types of deliverables are presented in two parts. The first part covers: Enhanced cooperation, preparedness and cybersecurity resilience in the EU; preparedness support services. Threat assessment and risk assessment services. The second part covers: Risk monitoring services Better compliance, coordinated vulnerability disclosure and monitoring Improved skills, via exercises and training courses, organisation of events, workshops. Stakeholder consultations and white papers…",
-   "opens": "2026-09-01",
-   "deadline": "2027-01-14",
-   "rolling": false,
-   "status": "open",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2027-DEPLOY-CYBER-11-COORDPREP",
-   "tags": [
-    "Energi"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
    "id": "EU:DIGITAL-ECCC-2027-DEPLOY-CYBER-11-DUALUSE",
    "source": "EU",
    "title": "Dual-use technologies",
@@ -701,6 +621,22 @@
    "status": "open",
    "budget": null,
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2027-DEPLOY-CYBER-11-DUALUSE",
+   "tags": [
+    "Energi"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "EU:DIGITAL-ECCC-2027-DEPLOY-CYBER-11-COORDPREP",
+   "source": "EU",
+   "title": "Coordinated preparedness testing and other preparedness actions",
+   "summary": "Expected Outcome: The types of deliverables are presented in two parts. The first part covers: Enhanced cooperation, preparedness and cybersecurity resilience in the EU; preparedness support services. Threat assessment and risk assessment services. The second part covers: Risk monitoring services Better compliance, coordinated vulnerability disclosure and monitoring Improved skills, via exercises and training courses, organisation of events, workshops. Stakeholder consultations and white papers…",
+   "opens": "2026-09-01",
+   "deadline": "2027-01-14",
+   "rolling": false,
+   "status": "open",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2027-DEPLOY-CYBER-11-COORDPREP",
    "tags": [
     "Energi"
    ],
@@ -1209,16 +1145,16 @@
    "firstSeen": "2026-10-27"
   },
   {
-   "id": "EU:HORIZON-CL5-2027-01-D1-10",
+   "id": "EU:HORIZON-CL5-2027-01-D1-12",
    "source": "EU",
-   "title": "Understanding and avoiding maladaptation to climate change",
-   "summary": "Expected Outcome: Project results are expected to contribute to all of the following outcomes: Existing evidence on maladaptation is retrieved comprehensively, and new knowledge is generated for incorporation into main EU repositories, such as Climate-ADAPT or the portal of the EU Mission on Adaptation to Climate Change; The risk and adaptation assessment frameworks are improved by better integrating the maladaptation dimension; Guidelines and tools for maladaptation prevention and correction s…",
+   "title": "Better understanding and attribution of land and ocean carbon sources and sinks",
+   "summary": "Expected Outcome: Project results are expected to contribute to some of the following expected outcomes: Better understanding of oceanic carbon dioxide (CO 2 ) sources and sinks, their drivers and dynamics under different climate scenarios, including their responses to human interventions; Better understanding of land ecosystem CO 2 sources and sinks, their drivers (both natural and anthropogenic) and their evolution under future climate and land-based mitigation scenarios; Progress on reconcil…",
    "opens": "2026-11-17",
    "deadline": "2027-03-04",
    "rolling": false,
    "status": "forthcoming",
    "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-10",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-12",
    "tags": [
     "Utsläpp"
    ],
@@ -1243,16 +1179,16 @@
    "firstSeen": "2026-10-27"
   },
   {
-   "id": "EU:HORIZON-CL5-2027-01-D1-12",
+   "id": "EU:HORIZON-CL5-2027-01-D1-10",
    "source": "EU",
-   "title": "Better understanding and attribution of land and ocean carbon sources and sinks",
-   "summary": "Expected Outcome: Project results are expected to contribute to some of the following expected outcomes: Better understanding of oceanic carbon dioxide (CO 2 ) sources and sinks, their drivers and dynamics under different climate scenarios, including their responses to human interventions; Better understanding of land ecosystem CO 2 sources and sinks, their drivers (both natural and anthropogenic) and their evolution under future climate and land-based mitigation scenarios; Progress on reconcil…",
+   "title": "Understanding and avoiding maladaptation to climate change",
+   "summary": "Expected Outcome: Project results are expected to contribute to all of the following outcomes: Existing evidence on maladaptation is retrieved comprehensively, and new knowledge is generated for incorporation into main EU repositories, such as Climate-ADAPT or the portal of the EU Mission on Adaptation to Climate Change; The risk and adaptation assessment frameworks are improved by better integrating the maladaptation dimension; Guidelines and tools for maladaptation prevention and correction s…",
    "opens": "2026-11-17",
    "deadline": "2027-03-04",
    "rolling": false,
    "status": "forthcoming",
    "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-12",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-10",
    "tags": [
     "Utsläpp"
    ],
@@ -1310,6 +1246,22 @@
    "firstSeen": "2026-11-05"
   },
   {
+   "id": "EU:HORIZON-WIDERA-2027-05-ERA-02",
+   "source": "EU",
+   "title": "Pillar II: Talent ecosystems for attractive early research careers",
+   "summary": "Expected Outcome: Proposals will deliver on the impact of “Improved research careers and mobility, based on the European framework for research careers, fostering knowledge flows and career interoperability across sectors and countries” [1] , contributing to the ERA Structural Policy “Making research careers more attractive and sustainable, and support mobility”. Project results are expected to contribute to the following outcomes: Creation of talent ecosystems [2] , as integrated networks wher…",
+   "opens": "2026-12-08",
+   "deadline": "2027-03-11",
+   "rolling": false,
+   "status": "forthcoming",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-WIDERA-2027-05-ERA-02",
+   "tags": [
+    "Energi"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  {
    "id": "EU:HORIZON-WIDERA-2027-05-ERA-05",
    "source": "EU",
    "title": "Pillar IV: Upgrading the EU’s independent knowledge on China's Science, Technology and Innovation system",
@@ -1358,32 +1310,64 @@
    "firstSeen": "2026-10-27"
   },
   {
-   "id": "EU:HORIZON-WIDERA-2027-05-ERA-02",
+   "id": "EU:HORIZON-CL4-2027-04-DIGITAL-EMERGING-06",
    "source": "EU",
-   "title": "Pillar II: Talent ecosystems for attractive early research careers",
-   "summary": "Expected Outcome: Proposals will deliver on the impact of “Improved research careers and mobility, based on the European framework for research careers, fostering knowledge flows and career interoperability across sectors and countries” [1] , contributing to the ERA Structural Policy “Making research careers more attractive and sustainable, and support mobility”. Project results are expected to contribute to the following outcomes: Creation of talent ecosystems [2] , as integrated networks wher…",
-   "opens": "2026-12-08",
-   "deadline": "2027-03-11",
+   "title": "International cooperation in AI (IA)",
+   "summary": "Expected Outcome: Project results are expected to contribute to one of the following outcomes: Faster uptake of tailored and enhanced AI solutions at innovation hubs in low- and middle-income countries by training and optimising them with local data and applied research. Easier large-scale deployment of local AI solutions in low and middle-income countries by increasing the efficiency of system demonstration in relevant, operational environments . Strengthened local innovation ecosystems that f…",
+   "opens": "2026-11-17",
+   "deadline": "2027-03-18",
    "rolling": false,
    "status": "forthcoming",
    "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-WIDERA-2027-05-ERA-02",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DIGITAL-EMERGING-06",
    "tags": [
     "Energi"
    ],
    "firstSeen": "2026-10-27"
   },
   {
-   "id": "EU:HORIZON-CL4-2027-04-DIGITAL-EMERGING-11",
+   "id": "EU:HORIZON-CL4-2027-04-DIGITAL-EMERGING-05",
    "source": "EU",
-   "title": "EU Frontier AI Initiative: Developing frontier AI solutions that are safe and computationally efficient within Apply AI (RIA)",
-   "summary": "Expected Outcome: The Apply AI Strategy [1] also seeks to bolster EU capabilities and achieve excellence in AI to support the development of European frontier models. As part of the Frontier AI Initiative, which brings together Europe’s leading actors in the field, this topic will support the development of sovereign frontier AI ensuring safety by design. This topic directly contributes to the Apply AI Strategy. Project results are expected to contribute to all of the following expected outcome…",
+   "title": "Apply AI: AI-Driven Robotics for Industry: Enabling System Integration and Adoption (IA) (Partnership in AI, Data and Robotics)",
+   "summary": "Expected Outcome: The Apply AI Strategy emphasises acceleration pipelines to ensure a smooth transition from research to deployment of AI-powered robotics. Projects under this topic will deliver common frameworks and reusable building blocks that can serve multiple sectors and use cases, reinforcing Europe’s ability to bring AI-driven robotics to scale. Project results are expected to contribute to all of the following expected outcomes: Wider and faster deployment of robotics, bridging the gap…",
    "opens": "2026-11-17",
    "deadline": "2027-03-18",
    "rolling": false,
    "status": "forthcoming",
    "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DIGITAL-EMERGING-11",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DIGITAL-EMERGING-05",
+   "tags": [
+    "Energi"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "EU:HORIZON-CL4-2027-04-DATA-03",
+   "source": "EU",
+   "title": "New approaches for decentralized, federated and sustainable AI data processing (RIA)",
+   "summary": "Expected Outcome: Project results are expected to contribute to developing new approaches, tools and techniques that overcome the obstacles of today's centralised AI compute techniques: limits in the availability of energy and AI compute capacity in centralised standalone environments, limited availability of types of AI chips, data quality and security and latency in AI data processing. The ultimate objective is to help overcome EU’s AI compute capacity bottlenecks by offering alternative dece…",
+   "opens": "2026-11-17",
+   "deadline": "2027-03-18",
+   "rolling": false,
+   "status": "forthcoming",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DATA-03",
+   "tags": [
+    "Energi"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "EU:HORIZON-CL4-2027-04-HUMAN-01",
+   "source": "EU",
+   "title": "Advanced and Innovative hardware components for Virtual Worlds (RIA) (Virtual Worlds Partnership)",
+   "summary": "Expected Outcome: Projects are expected to contribute to the following outcomes: Innovative and advanced XR hardware, advanced headsets, screens, wearables and haptic components, sensors and actuators, advanced chips for a deeper and closer-to-reality immersion, stimulating all human senses. Scope: In the recent years, hardware for Virtual Worlds made major breakthroughs, democratising headsets, sensors, actuators or haptic equipment. To keep this momentum and advancing further, new generation…",
+   "opens": "2026-11-17",
+   "deadline": "2027-03-18",
+   "rolling": false,
+   "status": "forthcoming",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-HUMAN-01",
    "tags": [
     "Energi"
    ],
@@ -1408,6 +1392,22 @@
    "firstSeen": "2026-10-27"
   },
   {
+   "id": "EU:HORIZON-CL4-2027-04-DIGITAL-EMERGING-11",
+   "source": "EU",
+   "title": "EU Frontier AI Initiative: Developing frontier AI solutions that are safe and computationally efficient within Apply AI (RIA)",
+   "summary": "Expected Outcome: The Apply AI Strategy [1] also seeks to bolster EU capabilities and achieve excellence in AI to support the development of European frontier models. As part of the Frontier AI Initiative, which brings together Europe’s leading actors in the field, this topic will support the development of sovereign frontier AI ensuring safety by design. This topic directly contributes to the Apply AI Strategy. Project results are expected to contribute to all of the following expected outcome…",
+   "opens": "2026-11-17",
+   "deadline": "2027-03-18",
+   "rolling": false,
+   "status": "forthcoming",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DIGITAL-EMERGING-11",
+   "tags": [
+    "Energi"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  {
    "id": "EU:HORIZON-CL4-2027-04-DATA-08",
    "source": "EU",
    "title": "Demand-side 3C pilot demonstrators on converged Telco Edge Cloud Infrastructure (IA)",
@@ -1424,70 +1424,6 @@
    "firstSeen": "2026-10-27"
   },
   {
-   "id": "EU:HORIZON-CL4-2027-04-DIGITAL-EMERGING-06",
-   "source": "EU",
-   "title": "International cooperation in AI (IA)",
-   "summary": "Expected Outcome: Project results are expected to contribute to one of the following outcomes: Faster uptake of tailored and enhanced AI solutions at innovation hubs in low- and middle-income countries by training and optimising them with local data and applied research. Easier large-scale deployment of local AI solutions in low and middle-income countries by increasing the efficiency of system demonstration in relevant, operational environments . Strengthened local innovation ecosystems that f…",
-   "opens": "2026-11-17",
-   "deadline": "2027-03-18",
-   "rolling": false,
-   "status": "forthcoming",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DIGITAL-EMERGING-06",
-   "tags": [
-    "Energi"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
-   "id": "EU:HORIZON-CL4-2027-04-DATA-03",
-   "source": "EU",
-   "title": "New approaches for decentralized, federated and sustainable AI data processing (RIA)",
-   "summary": "Expected Outcome: Project results are expected to contribute to developing new approaches, tools and techniques that overcome the obstacles of today's centralised AI compute techniques: limits in the availability of energy and AI compute capacity in centralised standalone environments, limited availability of types of AI chips, data quality and security and latency in AI data processing. The ultimate objective is to help overcome EU’s AI compute capacity bottlenecks by offering alternative dece…",
-   "opens": "2026-11-17",
-   "deadline": "2027-03-18",
-   "rolling": false,
-   "status": "forthcoming",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DATA-03",
-   "tags": [
-    "Energi"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
-   "id": "EU:HORIZON-CL4-2027-04-DIGITAL-EMERGING-05",
-   "source": "EU",
-   "title": "Apply AI: AI-Driven Robotics for Industry: Enabling System Integration and Adoption (IA) (Partnership in AI, Data and Robotics)",
-   "summary": "Expected Outcome: The Apply AI Strategy emphasises acceleration pipelines to ensure a smooth transition from research to deployment of AI-powered robotics. Projects under this topic will deliver common frameworks and reusable building blocks that can serve multiple sectors and use cases, reinforcing Europe’s ability to bring AI-driven robotics to scale. Project results are expected to contribute to all of the following expected outcomes: Wider and faster deployment of robotics, bridging the gap…",
-   "opens": "2026-11-17",
-   "deadline": "2027-03-18",
-   "rolling": false,
-   "status": "forthcoming",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DIGITAL-EMERGING-05",
-   "tags": [
-    "Energi"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
-   "id": "EU:HORIZON-CL4-2027-04-HUMAN-01",
-   "source": "EU",
-   "title": "Advanced and Innovative hardware components for Virtual Worlds (RIA) (Virtual Worlds Partnership)",
-   "summary": "Expected Outcome: Projects are expected to contribute to the following outcomes: Innovative and advanced XR hardware, advanced headsets, screens, wearables and haptic components, sensors and actuators, advanced chips for a deeper and closer-to-reality immersion, stimulating all human senses. Scope: In the recent years, hardware for Virtual Worlds made major breakthroughs, democratising headsets, sensors, actuators or haptic equipment. To keep this momentum and advancing further, new generation…",
-   "opens": "2026-11-17",
-   "deadline": "2027-03-18",
-   "rolling": false,
-   "status": "forthcoming",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-HUMAN-01",
-   "tags": [
-    "Energi"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
    "id": "Vinnova:2026-00518",
    "source": "Vinnova",
    "title": "Chips JU Calls 2026: Europeiska samverkansprojekt inom elektroniska komponenter och system (ECS)",
@@ -1498,38 +1434,6 @@
    "status": "open",
    "budget": null,
    "url": "https://ecscollaborationtool.eu/",
-   "tags": [
-    "Energi"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
-   "id": "EU:HORIZON-CL5-2027-02-D3-09",
-   "source": "EU",
-   "title": "Innovative technologies and solutions to improve wave and tidal energy systems",
-   "summary": "Expected Outcome: Project results are expected to contribute to all following expected outcomes: Advance in the realisation of the Strategic Energy Technology (SET) Plan’s research and innovation priorities and targets for ocean energy; Energy producers and consumers benefit from increased performance of wave and tidal energy technologies with the focus on efficiency and flexibility, reduced cost, improved reliability and sustainability, operation and maintenance, robustness and security during…",
-   "opens": "2026-12-03",
-   "deadline": "2027-03-31",
-   "rolling": false,
-   "status": "forthcoming",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D3-09",
-   "tags": [
-    "Energi"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
-   "id": "EU:HORIZON-CL5-2027-02-D2-06",
-   "source": "EU",
-   "title": "Sustainable and Competitive Cell Production Techniques for Lithium-ion And Sodium-ion Batteries (BATT4EU Partnership)",
-   "summary": "Expected Outcome: Proposals are expected to contribute to all following points: Significantly enhanced competitiveness, resilience, and sustainability of the European battery cell manufacturing industry, achieving measurable reductions in capital expenditure (CAPEX), operational expenditure (OPEX), energy consumption, and environmental footprint compared to state-of-the-art processes. Demonstrated advanced manufacturing processes and equipment that substantially decrease battery production cost…",
-   "opens": "2026-12-03",
-   "deadline": "2027-03-31",
-   "rolling": false,
-   "status": "forthcoming",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D2-06",
    "tags": [
     "Energi"
    ],
@@ -1569,16 +1473,16 @@
    "firstSeen": "2026-10-27"
   },
   {
-   "id": "EU:HORIZON-CL5-2027-02-D3-33",
+   "id": "EU:HORIZON-CL5-2027-02-D2-05",
    "source": "EU",
-   "title": "Support to the SET Plan stakeholders’ groups in geothermal energy",
-   "summary": "Expected Outcome: In 2015, the launch of the Energy Union saw the SET Plan (Strategic Energy Technology Plan) incorporated as the Energy Union’s fifth pillar on ‘Research, Innovation and Competitiveness’. With the 2023 Communication on the revision of the SET Plan, its strategic objectives were harmonised with the European Green Deal, REPowerEU and the Green Deal Industrial Plan. Moreover, the SET Plan became a structural policy under the European Research Area. In 2024, the SET Plan was enshri…",
+   "title": "Improvement of Adaptability, Flexibility and Efficiency of Existing Recycling Processes (BATT4EU Partnership)",
+   "summary": "Expected Outcome: Proposals are expected to contribute to all following points: Improving cost and recovery efficiency of existing scaled recycling technologies Demonstrated technological solutions capable of efficiently recycling diverse feedstocks, including production scrap, and mixed lithium-ion battery chemistries Improved European competitiveness by reducing EU dependence on imported raw materials through improved recycling processes Demonstrable compliance with the targets and requiremen…",
    "opens": "2026-12-03",
    "deadline": "2027-03-31",
    "rolling": false,
    "status": "forthcoming",
    "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D3-33",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D2-05",
    "tags": [
     "Energi",
     "Utsläpp"
@@ -1586,22 +1490,34 @@
    "firstSeen": "2026-10-27"
   },
   {
-   "id": "EU:HORIZON-CL5-2027-02-D3-07",
+   "id": "EU:HORIZON-CL5-2027-02-D3-09",
    "source": "EU",
-   "title": "Concentrated solar thermal systems for decarbonising industrial processes",
-   "summary": "Expected Outcome: Renewable heating can be directly used to efficiently decarbonise industrial processes. Concentrated solar thermal technologies offer a great potential to supply renewable heat for industry for temperatures between 150°C - 400°C. Nevertheless, efforts are still required to demonstrate these technologies for a variety of industrial processes. Proposals are expected to contribute to all the following outcomes: Showcase the capacity of concentrated solar thermal systems to largel…",
+   "title": "Innovative technologies and solutions to improve wave and tidal energy systems",
+   "summary": "Expected Outcome: Project results are expected to contribute to all following expected outcomes: Advance in the realisation of the Strategic Energy Technology (SET) Plan’s research and innovation priorities and targets for ocean energy; Energy producers and consumers benefit from increased performance of wave and tidal energy technologies with the focus on efficiency and flexibility, reduced cost, improved reliability and sustainability, operation and maintenance, robustness and security during…",
    "opens": "2026-12-03",
    "deadline": "2027-03-31",
    "rolling": false,
    "status": "forthcoming",
    "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D3-07",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D3-09",
    "tags": [
-    "Energi",
-    "Hög temperatur",
-    "Utsläpp",
-    "Industriprocesser",
-    "Värme"
+    "Energi"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "EU:HORIZON-CL5-2027-02-D2-06",
+   "source": "EU",
+   "title": "Sustainable and Competitive Cell Production Techniques for Lithium-ion And Sodium-ion Batteries (BATT4EU Partnership)",
+   "summary": "Expected Outcome: Proposals are expected to contribute to all following points: Significantly enhanced competitiveness, resilience, and sustainability of the European battery cell manufacturing industry, achieving measurable reductions in capital expenditure (CAPEX), operational expenditure (OPEX), energy consumption, and environmental footprint compared to state-of-the-art processes. Demonstrated advanced manufacturing processes and equipment that substantially decrease battery production cost…",
+   "opens": "2026-12-03",
+   "deadline": "2027-03-31",
+   "rolling": false,
+   "status": "forthcoming",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D2-06",
+   "tags": [
+    "Energi"
    ],
    "firstSeen": "2026-10-27"
   },
@@ -1624,19 +1540,22 @@
    "firstSeen": "2026-10-27"
   },
   {
-   "id": "EU:HORIZON-CL5-2027-02-D2-05",
+   "id": "EU:HORIZON-CL5-2027-02-D3-07",
    "source": "EU",
-   "title": "Improvement of Adaptability, Flexibility and Efficiency of Existing Recycling Processes (BATT4EU Partnership)",
-   "summary": "Expected Outcome: Proposals are expected to contribute to all following points: Improving cost and recovery efficiency of existing scaled recycling technologies Demonstrated technological solutions capable of efficiently recycling diverse feedstocks, including production scrap, and mixed lithium-ion battery chemistries Improved European competitiveness by reducing EU dependence on imported raw materials through improved recycling processes Demonstrable compliance with the targets and requiremen…",
+   "title": "Concentrated solar thermal systems for decarbonising industrial processes",
+   "summary": "Expected Outcome: Renewable heating can be directly used to efficiently decarbonise industrial processes. Concentrated solar thermal technologies offer a great potential to supply renewable heat for industry for temperatures between 150°C - 400°C. Nevertheless, efforts are still required to demonstrate these technologies for a variety of industrial processes. Proposals are expected to contribute to all the following outcomes: Showcase the capacity of concentrated solar thermal systems to largel…",
    "opens": "2026-12-03",
    "deadline": "2027-03-31",
    "rolling": false,
    "status": "forthcoming",
    "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D2-05",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D3-07",
    "tags": [
     "Energi",
-    "Utsläpp"
+    "Hög temperatur",
+    "Utsläpp",
+    "Industriprocesser",
+    "Värme"
    ],
    "firstSeen": "2026-10-27"
   },
@@ -1673,6 +1592,23 @@
     "Vätgas",
     "Bränslen",
     "Biomassa & sameldning",
+    "Utsläpp"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "EU:HORIZON-CL5-2027-02-D3-33",
+   "source": "EU",
+   "title": "Support to the SET Plan stakeholders’ groups in geothermal energy",
+   "summary": "Expected Outcome: In 2015, the launch of the Energy Union saw the SET Plan (Strategic Energy Technology Plan) incorporated as the Energy Union’s fifth pillar on ‘Research, Innovation and Competitiveness’. With the 2023 Communication on the revision of the SET Plan, its strategic objectives were harmonised with the European Green Deal, REPowerEU and the Green Deal Industrial Plan. Moreover, the SET Plan became a structural policy under the European Research Area. In 2024, the SET Plan was enshri…",
+   "opens": "2026-12-03",
+   "deadline": "2027-03-31",
+   "rolling": false,
+   "status": "forthcoming",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D3-33",
+   "tags": [
+    "Energi",
     "Utsläpp"
    ],
    "firstSeen": "2026-10-27"
@@ -1849,23 +1785,6 @@
    "firstSeen": "2026-10-29"
   },
   {
-   "id": "EU:HORIZON-CL5-2027-03-D5-20",
-   "source": "EU",
-   "title": "Assessing the effect of airport operations on air quality and noise in nearby communities",
-   "summary": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: Assessment of the impact of airport operations on air quality and water bodies (including biodiversity) through air quality measurements and monitoring at different spots in and around the airports as well as through in vitro testing and/or remote sensing for water quality in airports close to water bodies Contributing to the delivery of better emission factors for emissions inventories and p…",
-   "opens": "2026-12-15",
-   "deadline": "2027-04-14",
-   "rolling": false,
-   "status": "forthcoming",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-03-D5-20",
-   "tags": [
-    "Bränslen",
-    "Utsläpp"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
    "id": "EU:HORIZON-CL5-2027-03-D5-05",
    "source": "EU",
    "title": "Higher Voltage, Megawatt Charging System compatible, modular powertrain for Heavy Duty Vehicles (HDV) (2ZERO Partnership)",
@@ -1884,6 +1803,23 @@
    "firstSeen": "2026-10-27"
   },
   {
+   "id": "EU:HORIZON-CL5-2027-03-D5-20",
+   "source": "EU",
+   "title": "Assessing the effect of airport operations on air quality and noise in nearby communities",
+   "summary": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: Assessment of the impact of airport operations on air quality and water bodies (including biodiversity) through air quality measurements and monitoring at different spots in and around the airports as well as through in vitro testing and/or remote sensing for water quality in airports close to water bodies Contributing to the delivery of better emission factors for emissions inventories and p…",
+   "opens": "2026-12-15",
+   "deadline": "2027-04-14",
+   "rolling": false,
+   "status": "forthcoming",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-03-D5-20",
+   "tags": [
+    "Bränslen",
+    "Utsläpp"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  {
    "id": "EU:HORIZON-CL5-2027-03-D5-08",
    "source": "EU",
    "title": "Sustainable aircraft circular design and additive manufacturing, towards a climate neutral aviation",
@@ -1898,6 +1834,60 @@
     "Energi"
    ],
    "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "EU:HORIZON-CL5-2027-03-D5-17",
+   "source": "EU",
+   "title": "Innovative Solutions for mitigating the environmental impact of waterborne transport in marine and aquatic Ecosystems (ZEWT Partnership)",
+   "summary": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes. Improved water resilience and good environmental and good ecological status in European waters and contribute to the achievement of the European Union's environmental targets, including the European Water Resilience Strategy and the European Ocean Pact. A comprehensive understanding of the future environmental impacts of waterborne transport on marine and other aquatic ecosystems, addressing…",
+   "opens": "2026-12-15",
+   "deadline": "2027-04-14",
+   "rolling": false,
+   "status": "forthcoming",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-03-D5-17",
+   "tags": [
+    "Bränslen",
+    "Utsläpp"
+   ],
+   "firstSeen": "2026-11-06"
+  },
+  {
+   "id": "EU:HORIZON-CL5-2027-03-D5-15",
+   "source": "EU",
+   "title": "Prospective evaluation of nuclear power potential for shipping (ZEWT Partnership)",
+   "summary": "Expected Outcome: Project results are expected to contribute to all the following expected outcomes: Drafting of a R&amp;I roadmap towards deploying nuclear power in commercial shipping, including small modular reactors (SMRs) and other advanced nuclear technologies (e.g. complementing the latest European Industrial Alliance on SMRs technology roadmap [1] ), including identification of research gaps, infrastructures and future innovation needs Mapping of relevant regulatory regimes nationally,…",
+   "opens": "2026-12-15",
+   "deadline": "2027-04-14",
+   "rolling": false,
+   "status": "forthcoming",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-03-D5-15",
+   "tags": [
+    "Energi",
+    "Bränslen",
+    "Utsläpp"
+   ],
+   "firstSeen": "2026-11-06"
+  },
+  {
+   "id": "EU:HORIZON-CL5-2027-03-D5-18",
+   "source": "EU",
+   "title": "Enhanced electric operation and battery durability (ZEWT Partnership)",
+   "summary": "Expected Outcome: Project outputs and results are expected to contribute to all the following expected outcomes: Demonstrate autonomy, of at least 150 nm (or 277.8 KM for inland navigation) using electrical storage as the only energy source, while allowing rapid in-route zero-emission replenishment. Increase the power output, providing beyond 5 MW as peak propulsion power with corresponding grid capacity. Improve systems to increase the number charging cycles combined with high-power charging t…",
+   "opens": "2026-12-15",
+   "deadline": "2027-04-14",
+   "rolling": false,
+   "status": "forthcoming",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-03-D5-18",
+   "tags": [
+    "Energi",
+    "Bränslen",
+    "Utsläpp",
+    "Värme"
+   ],
+   "firstSeen": "2026-11-06"
   },
   {
    "id": "EU:HORIZON-CL5-2027-03-D5-14",
@@ -2658,6 +2648,22 @@
    "firstSeen": "2026-10-27"
   },
   {
+   "id": "EU:HORIZON-CL6-2027-02-FARM2FORK-02",
+   "source": "EU",
+   "title": "Increasing mitigation of GHG emissions and feed efficiency through feed additives",
+   "summary": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: farmers experience increasing benefits from the adoption of safe, efficient, practical and affordable improved or novel feed additives and related practices that reduce GHG and air pollutants emissions, minimize environmental impact and have neither adverse effects on animal productivity nor on animal welfare; Farmer and agricultural advisors gain improved access to knowledge, resources and d…",
+   "opens": "2027-04-20",
+   "deadline": "2027-09-23",
+   "rolling": false,
+   "status": "forthcoming",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-FARM2FORK-02",
+   "tags": [
+    "Utsläpp"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  {
    "id": "EU:HORIZON-CL6-2027-02-COMMUNITIES-01",
    "source": "EU",
    "title": "Strengthening rural communities' resilience to shocks",
@@ -2687,22 +2693,6 @@
    "tags": [
     "Bränslen",
     "Industriprocesser"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
-   "id": "EU:HORIZON-CL6-2027-02-FARM2FORK-02",
-   "source": "EU",
-   "title": "Increasing mitigation of GHG emissions and feed efficiency through feed additives",
-   "summary": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: farmers experience increasing benefits from the adoption of safe, efficient, practical and affordable improved or novel feed additives and related practices that reduce GHG and air pollutants emissions, minimize environmental impact and have neither adverse effects on animal productivity nor on animal welfare; Farmer and agricultural advisors gain improved access to knowledge, resources and d…",
-   "opens": "2027-04-20",
-   "deadline": "2027-09-23",
-   "rolling": false,
-   "status": "forthcoming",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-FARM2FORK-02",
-   "tags": [
-    "Utsläpp"
    ],
    "firstSeen": "2026-10-27"
   },
