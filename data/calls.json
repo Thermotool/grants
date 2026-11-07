@@ -1,20 +1,22 @@
 {
- "updatedAt": "2026-11-06T12:22:21.131Z",
+ "updatedAt": "2026-11-07T11:15:43.640Z",
  "sources": {
   "Energimyndigheten": {
    "ok": true,
    "count": 5,
-   "fetchedAt": "2026-11-06T12:19:46.222Z"
+   "fetchedAt": "2026-11-07T11:13:49.264Z"
   },
   "Vinnova": {
    "ok": true,
    "count": 8,
-   "fetchedAt": "2026-11-06T12:19:46.902Z"
+   "fetchedAt": "2026-11-07T11:13:49.713Z"
   },
   "EU": {
-   "ok": true,
+   "ok": false,
    "count": 170,
-   "fetchedAt": "2026-11-06T12:22:05.451Z"
+   "error": "HTTP 403 för https://api.tech.ec.europa.eu/search-api/prod/rest/search?apiKey=SEDIA&text=***&pageSize=100&pageNumber=2",
+   "fetchedAt": "2026-11-07T11:15:41.578Z",
+   "lastGood": "2026-11-06T12:22:05.451Z"
   }
  },
  "calls": [
