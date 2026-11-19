@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-11-18T13:20:24.532Z",
+ "updatedAt": "2026-11-19T13:43:39.671Z",
  "sources": {
   "Energimyndigheten": {
    "ok": true,
-   "count": 5,
-   "fetchedAt": "2026-11-18T13:17:38.736Z"
+   "count": 4,
+   "fetchedAt": "2026-11-19T13:40:30.102Z"
   },
   "Vinnova": {
    "ok": true,
-   "count": 7,
-   "fetchedAt": "2026-11-18T13:17:40.028Z"
+   "count": 9,
+   "fetchedAt": "2026-11-19T13:40:30.876Z"
   },
   "EU": {
    "ok": true,
    "count": 166,
-   "fetchedAt": "2026-11-18T13:20:04.915Z"
+   "fetchedAt": "2026-11-19T13:43:22.501Z"
   }
  },
  "calls": [
@@ -77,22 +77,6 @@
    "status": "open",
    "budget": null,
    "url": "https://ecscollaborationtool.eu/",
-   "tags": [
-    "Energi"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
-   "id": "Energimyndigheten:202100-5000:UT2026-00013",
-   "source": "Energimyndigheten",
-   "title": "Effektiv energianvändning i bebyggelsen för ett hållbart energisystem",
-   "summary": "Sök stöd för att utveckla kunskap, perspektiv och lösningar som bidrar till effektiv energianvändning i bebyggelsen eller för att etablera innovationskluster som stärker utvecklingen genom samverkan.",
-   "opens": "2026-06-11",
-   "deadline": "2026-11-18",
-   "rolling": false,
-   "status": "open",
-   "budget": null,
-   "url": "https://www.energimyndigheten.se/utlysningar/",
    "tags": [
     "Energi"
    ],
@@ -2999,6 +2983,39 @@
     "Utsläpp"
    ],
    "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "Vinnova:2026-04229",
+   "source": "Vinnova",
+   "title": "Impact Innovation SustainGov: Förberedelseprojekt för en reformerad offentlig sektor 2027 (1)",
+   "summary": "SustainGov finansierar förberedande projekt där offentlig sektor samarbetar för att identifiera nya arbetssätt inom fyra fokusområden; komplexa vårdbehov, inkluderande samhälle, livsmedelsförsörjning samt förnyad relation mellan invånare och offentlig sektor. Projekten ska analysera hur en mer proaktiv och systeminriktad offentlig sektor kan förbättra hälsa och välbefinnande för alla invånare, inom planetens gränser. Projekten ska föreslå ett konkret nästa steg. SustainGov är en del av satsning…",
+   "opens": null,
+   "deadline": null,
+   "rolling": false,
+   "status": "open",
+   "budget": null,
+   "url": "https://www.vinnova.se/utlysningar/",
+   "tags": [
+    "Energi"
+   ],
+   "firstSeen": "2026-11-19"
+  },
+  {
+   "id": "Vinnova:2026-04251",
+   "source": "Vinnova",
+   "title": "Innovationsprojekt i omställningslabb för framtidens livsmiljöer",
+   "summary": "ShiftSweden ställer om Sverige, fossilfritt och resursmedvetet, till attraktiva och tillgängliga livsmiljöer för alla. Utlysningen öppnar för projektförslag i nya omställningslabb samt befintliga omställningslabb inom samhällsbyggnad och mobilitet.",
+   "opens": null,
+   "deadline": null,
+   "rolling": false,
+   "status": "open",
+   "budget": null,
+   "url": "https://www.vinnova.se/utlysningar/",
+   "tags": [
+    "Energi",
+    "Utsläpp"
+   ],
+   "firstSeen": "2026-11-19"
   }
  ]
 }
