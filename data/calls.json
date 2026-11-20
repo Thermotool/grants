@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-11-19T13:43:39.671Z",
+ "updatedAt": "2026-11-20T13:25:57.354Z",
  "sources": {
   "Energimyndigheten": {
    "ok": true,
    "count": 4,
-   "fetchedAt": "2026-11-19T13:40:30.102Z"
+   "fetchedAt": "2026-11-20T13:23:37.452Z"
   },
   "Vinnova": {
    "ok": true,
    "count": 9,
-   "fetchedAt": "2026-11-19T13:40:30.876Z"
+   "fetchedAt": "2026-11-20T13:23:38.160Z"
   },
   "EU": {
    "ok": true,
-   "count": 166,
-   "fetchedAt": "2026-11-19T13:43:22.501Z"
+   "count": 165,
+   "fetchedAt": "2026-11-20T13:25:39.717Z"
   }
  },
  "calls": [
@@ -77,22 +77,6 @@
    "status": "open",
    "budget": null,
    "url": "https://ecscollaborationtool.eu/",
-   "tags": [
-    "Energi"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
-   "id": "EU:EuropeAid/187764/DD/ACT/UA",
-   "source": "EU",
-   "title": "Institutional support to the National Commission for State Regulation of Energy and Utilities of Ukraine in the implementation of the EU Acquis, norms and standards on functioning of energy markets",
-   "summary": "Institutional support to the National Commission for State Regulation of Energy and Utilities of Ukraine in the implementation of the EU Acquis, norms and standards on functioning of energy markets",
-   "opens": "2026-09-24",
-   "deadline": "2026-11-19",
-   "rolling": false,
-   "status": "open",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EuropeAid%2F187764%2FDD%2FACT%2FUA",
    "tags": [
     "Energi"
    ],
@@ -869,6 +853,22 @@
    "firstSeen": "2026-10-27"
   },
   {
+   "id": "EU:HORIZON-BRIDGING-2027-01-13",
+   "source": "EU",
+   "title": "EU Frontier AI Initiative: Advanced Scaling Frameworks for High-Performance AI Models (RIA) - Apply AI",
+   "summary": "Expected Outcome: This topic aims to advance the scientific and technical foundations for the scaling of AI models, enhancing the performance of training and inference processes and providing European AI labs with the methodologies required to compete at the global frontier. Project results are expected to contribute to some of the following outcomes: Establishment of robust scaling laws and predictive frameworks that allow for the reliable estimation of model performance before large-scale com…",
+   "opens": "2026-10-20",
+   "deadline": "2027-02-16",
+   "rolling": false,
+   "status": "open",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-BRIDGING-2027-01-13",
+   "tags": [
+    "Energi"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  {
    "id": "EU:HORIZON-BRIDGING-2027-01-12",
    "source": "EU",
    "title": "Large-Scale piloting of next-generation AI-driven digital platforms for a more affordable, secure and sustainable European energy system (IA) - Apply AI",
@@ -883,22 +883,6 @@
     "Energi",
     "Utsläpp",
     "Industriprocesser"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
-   "id": "EU:HORIZON-BRIDGING-2027-01-13",
-   "source": "EU",
-   "title": "EU Frontier AI Initiative: Advanced Scaling Frameworks for High-Performance AI Models (RIA) - Apply AI",
-   "summary": "Expected Outcome: This topic aims to advance the scientific and technical foundations for the scaling of AI models, enhancing the performance of training and inference processes and providing European AI labs with the methodologies required to compete at the global frontier. Project results are expected to contribute to some of the following outcomes: Establishment of robust scaling laws and predictive frameworks that allow for the reliable estimation of model performance before large-scale com…",
-   "opens": "2026-10-20",
-   "deadline": "2027-02-16",
-   "rolling": false,
-   "status": "open",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-BRIDGING-2027-01-13",
-   "tags": [
-    "Energi"
    ],
    "firstSeen": "2026-10-27"
   },
@@ -1048,6 +1032,23 @@
    "firstSeen": "2026-10-27"
   },
   {
+   "id": "EU:HORIZON-CL5-2027-01-D1-09",
+   "source": "EU",
+   "title": "Assessing the performance of policy instruments to inform climate change mitigation action",
+   "summary": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: Enhanced knowledge of the effectiveness of policy instruments on EU and Member State level to inform mitigation action and policy improvements, ensuring a fair transition and social acceptability; Methodologies are developed and improved for ex-ante assessment and ex-post evaluation of greenhouse gas emission reductions from climate policies and measures; Strengthened collaboration and establ…",
+   "opens": "2026-11-17",
+   "deadline": "2027-03-04",
+   "rolling": false,
+   "status": "open",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-09",
+   "tags": [
+    "Energi",
+    "Utsläpp"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  {
    "id": "EU:HORIZON-CL5-2027-01-D1-12",
    "source": "EU",
    "title": "Better understanding and attribution of land and ocean carbon sources and sinks",
@@ -1055,7 +1056,7 @@
    "opens": "2026-11-17",
    "deadline": "2027-03-04",
    "rolling": false,
-   "status": "forthcoming",
+   "status": "open",
    "budget": null,
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-12",
    "tags": [
@@ -1071,28 +1072,11 @@
    "opens": "2026-11-17",
    "deadline": "2027-03-04",
    "rolling": false,
-   "status": "forthcoming",
+   "status": "open",
    "budget": null,
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-11",
    "tags": [
     "Energi"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
-   "id": "EU:HORIZON-CL5-2027-01-D1-09",
-   "source": "EU",
-   "title": "Assessing the performance of policy instruments to inform climate change mitigation action",
-   "summary": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: Enhanced knowledge of the effectiveness of policy instruments on EU and Member State level to inform mitigation action and policy improvements, ensuring a fair transition and social acceptability; Methodologies are developed and improved for ex-ante assessment and ex-post evaluation of greenhouse gas emission reductions from climate policies and measures; Strengthened collaboration and establ…",
-   "opens": "2026-11-17",
-   "deadline": "2027-03-04",
-   "rolling": false,
-   "status": "forthcoming",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-09",
-   "tags": [
-    "Energi",
-    "Utsläpp"
    ],
    "firstSeen": "2026-10-27"
   },
@@ -1104,7 +1088,7 @@
    "opens": "2026-11-17",
    "deadline": "2027-03-04",
    "rolling": false,
-   "status": "forthcoming",
+   "status": "open",
    "budget": null,
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-10",
    "tags": [
@@ -1120,7 +1104,7 @@
    "opens": "2026-11-17",
    "deadline": "2027-03-04",
    "rolling": false,
-   "status": "forthcoming",
+   "status": "open",
    "budget": null,
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-13",
    "tags": [
