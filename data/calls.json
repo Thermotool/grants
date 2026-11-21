@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-11-20T13:25:57.354Z",
+ "updatedAt": "2026-11-21T12:55:18.718Z",
  "sources": {
   "Energimyndigheten": {
    "ok": true,
    "count": 4,
-   "fetchedAt": "2026-11-20T13:23:37.452Z"
+   "fetchedAt": "2026-11-21T12:52:52.524Z"
   },
   "Vinnova": {
    "ok": true,
    "count": 9,
-   "fetchedAt": "2026-11-20T13:23:38.160Z"
+   "fetchedAt": "2026-11-21T12:52:53.138Z"
   },
   "EU": {
    "ok": true,
    "count": 165,
-   "fetchedAt": "2026-11-20T13:25:39.717Z"
+   "fetchedAt": "2026-11-21T12:55:04.166Z"
   }
  },
  "calls": [
@@ -869,6 +869,22 @@
    "firstSeen": "2026-10-27"
   },
   {
+   "id": "EU:HORIZON-BRIDGING-2027-01-10",
+   "source": "EU",
+   "title": "Autonomous Drive Ambition Cities (IA) - Apply AI",
+   "summary": "Expected Outcome: Development and demonstration of AI-enabled electric autonomous mobility services (level 4) in urban traffic, improving safety, sustainability, data sharing and commercial scalability across cities, through a large-scale demonstrator integrating 5 - 7 co-ordinated city pilots in 5 or more Member States or associated countries including at least one cross-border pilot between adjacent cities - to bring near-to-market autonomous driving technologies into real operations: Deliver…",
+   "opens": "2026-10-20",
+   "deadline": "2027-02-16",
+   "rolling": false,
+   "status": "open",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-BRIDGING-2027-01-10",
+   "tags": [
+    "Energi"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  {
    "id": "EU:HORIZON-BRIDGING-2027-01-12",
    "source": "EU",
    "title": "Large-Scale piloting of next-generation AI-driven digital platforms for a more affordable, secure and sustainable European energy system (IA) - Apply AI",
@@ -883,22 +899,6 @@
     "Energi",
     "Utsläpp",
     "Industriprocesser"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
-   "id": "EU:HORIZON-BRIDGING-2027-01-10",
-   "source": "EU",
-   "title": "Autonomous Drive Ambition Cities (IA) - Apply AI",
-   "summary": "Expected Outcome: Development and demonstration of AI-enabled electric autonomous mobility services (level 4) in urban traffic, improving safety, sustainability, data sharing and commercial scalability across cities, through a large-scale demonstrator integrating 5 - 7 co-ordinated city pilots in 5 or more Member States or associated countries including at least one cross-border pilot between adjacent cities - to bring near-to-market autonomous driving technologies into real operations: Deliver…",
-   "opens": "2026-10-20",
-   "deadline": "2027-02-16",
-   "rolling": false,
-   "status": "open",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-BRIDGING-2027-01-10",
-   "tags": [
-    "Energi"
    ],
    "firstSeen": "2026-10-27"
   },
