@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-11-21T12:55:18.718Z",
+ "updatedAt": "2026-11-22T12:47:54.251Z",
  "sources": {
   "Energimyndigheten": {
    "ok": true,
    "count": 4,
-   "fetchedAt": "2026-11-21T12:52:52.524Z"
+   "fetchedAt": "2026-11-22T12:45:12.177Z"
   },
   "Vinnova": {
    "ok": true,
    "count": 9,
-   "fetchedAt": "2026-11-21T12:52:53.138Z"
+   "fetchedAt": "2026-11-22T12:45:12.759Z"
   },
   "EU": {
    "ok": true,
    "count": 165,
-   "fetchedAt": "2026-11-21T12:55:04.166Z"
+   "fetchedAt": "2026-11-22T12:47:42.647Z"
   }
  },
  "calls": [
@@ -1032,6 +1032,40 @@
    "firstSeen": "2026-10-27"
   },
   {
+   "id": "EU:HORIZON-CL5-2027-01-D1-11",
+   "source": "EU",
+   "title": "Africa-EU CO-FUND action on climate",
+   "summary": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: A long-term collaboration on climate change research between the EU and the African Union is established through development and implementation of the Climate Action pillar of the EU-AU Research and Innovation Partnership on Climate Change and Sustainable Energy (CCSE), [1] in co-design between African and European partners; Reduced fragmentation by aligning the EU, national and multilateral…",
+   "opens": "2026-11-17",
+   "deadline": "2027-03-04",
+   "rolling": false,
+   "status": "open",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-11",
+   "tags": [
+    "Energi"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "id": "EU:HORIZON-CL5-2027-01-D1-13",
+   "source": "EU",
+   "title": "Next generation scenarios for informing climate and sustainability transitions",
+   "summary": "Expected Outcome: Project results are expected to contribute to some of the following expected outcomes: Strengthened collaboration and integration across research communities, better capturing interactions and trade-offs between various climate domains as well as between climate and non-climate objectives, such as biodiversity or pollution related. This will support more comprehensive and consistent evaluations, benefiting key global assessments (IPCC, IPBES) and improving their impact on Euro…",
+   "opens": "2026-11-17",
+   "deadline": "2027-03-04",
+   "rolling": false,
+   "status": "open",
+   "budget": null,
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-13",
+   "tags": [
+    "Energi",
+    "Bränslen",
+    "Utsläpp"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  {
    "id": "EU:HORIZON-CL5-2027-01-D1-09",
    "source": "EU",
    "title": "Assessing the performance of policy instruments to inform climate change mitigation action",
@@ -1065,22 +1099,6 @@
    "firstSeen": "2026-10-27"
   },
   {
-   "id": "EU:HORIZON-CL5-2027-01-D1-11",
-   "source": "EU",
-   "title": "Africa-EU CO-FUND action on climate",
-   "summary": "Expected Outcome: Project results are expected to contribute to all of the following expected outcomes: A long-term collaboration on climate change research between the EU and the African Union is established through development and implementation of the Climate Action pillar of the EU-AU Research and Innovation Partnership on Climate Change and Sustainable Energy (CCSE), [1] in co-design between African and European partners; Reduced fragmentation by aligning the EU, national and multilateral…",
-   "opens": "2026-11-17",
-   "deadline": "2027-03-04",
-   "rolling": false,
-   "status": "open",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-11",
-   "tags": [
-    "Energi"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
    "id": "EU:HORIZON-CL5-2027-01-D1-10",
    "source": "EU",
    "title": "Understanding and avoiding maladaptation to climate change",
@@ -1092,24 +1110,6 @@
    "budget": null,
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-10",
    "tags": [
-    "Utsläpp"
-   ],
-   "firstSeen": "2026-10-27"
-  },
-  {
-   "id": "EU:HORIZON-CL5-2027-01-D1-13",
-   "source": "EU",
-   "title": "Next generation scenarios for informing climate and sustainability transitions",
-   "summary": "Expected Outcome: Project results are expected to contribute to some of the following expected outcomes: Strengthened collaboration and integration across research communities, better capturing interactions and trade-offs between various climate domains as well as between climate and non-climate objectives, such as biodiversity or pollution related. This will support more comprehensive and consistent evaluations, benefiting key global assessments (IPCC, IPBES) and improving their impact on Euro…",
-   "opens": "2026-11-17",
-   "deadline": "2027-03-04",
-   "rolling": false,
-   "status": "open",
-   "budget": null,
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-13",
-   "tags": [
-    "Energi",
-    "Bränslen",
     "Utsläpp"
    ],
    "firstSeen": "2026-10-27"
